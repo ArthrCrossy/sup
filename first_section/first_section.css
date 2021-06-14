@@ -1,0 +1,125 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.cabecario {
+    align-items: flex-end;
+    background: #dcdcdc;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bolder;
+    
+}
+
+.destaques__titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+
+.destaques {
+    background-color: white;
+    display: grid;
+    grid-gap: .3rem;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 33.33% 33.33% 33.33%;
+    height: calc(100vh - 50px);
+    padding-bottom: 15px;
+}
+
+.destaques__titulo {
+    background-color: rgba(0, 0, 0, .5);
+    color: #dcdcdc;
+    padding: .6rem;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.destaques__principal {
+
+    background-image: url(/first_section/img/fortnite.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.destaques__secundario:nth-child(2){
+
+    background: url(/first_section/img/gta-v.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.destaques__secundario:nth-child(3){
+
+    background: url(/first_section/img/pubg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.destaques__secundario:nth-child(4){
+
+    background: url(/first_section/img/mario-kart.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+.destaques__secundario:nth-child(5){
+
+    background: url(/first_section/img/free-fire.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+.destaques__secundario:nth-child(6){
+
+    background: url(/first_section/img/onefotball.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+.destaques__secundario:nth-child(7){
+
+    background: url(/first_section/img/cs-go.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
